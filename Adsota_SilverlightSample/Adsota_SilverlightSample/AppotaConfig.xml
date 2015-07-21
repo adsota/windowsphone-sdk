@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--More info at -->
+<appotaSDK xmlns="">
+  <!--Replace placeholder apiKey with your apiKey in https://developer.appota.com/-->
+  <apiKey>your api key</apiKey>
+</appotaSDK>

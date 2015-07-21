@@ -1,0 +1,1 @@
+c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota_RuntimeSample.csproj;neutral

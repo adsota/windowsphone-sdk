@@ -1,0 +1,31 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Adsota_SilverlightSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:Ads="clr-namespace:AppotaAdsSL;assembly=AppotaAdsSL"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Content="Banner" Name="btnBanner" Tap="btnBanner_Tap"/>
+            <Button Content="FullScreen" Name="btnScreen" Tap="btnScreen_Tap"/>
+            <Button Content="OfferWall" Name="btnOfferWall" Tap="btnOfferWall_Tap"/>
+        </StackPanel>
+
+        <Ads:Banner Name="banner" VerticalAlignment="Bottom"/>
+        <Ads:FullScreen Name="fullscreen"/>
+        <Ads:OfferWall Name="OfferWall"/>
+       
+    </Grid>
+
+</phone:PhoneApplicationPage>

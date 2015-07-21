@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HUUTRAN</Machine>
+    <WindowsUser>HuuTran</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>c6a80d57-fed7-475d-b061-af225de25d3e</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\bin\Debug\Adsota_RuntimeSample.exe">
+      <PackagePath>Adsota_RuntimeSample.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds.dll">
+      <PackagePath>AppotaAds.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds.dll">
+      <PackagePath>Adsota.Content\AppotaAds.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds\AppotaAds.xr.xml">
+      <PackagePath>Adsota.Content\AppotaAds\AppotaAds.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\AppotaConfig.xml">
+      <PackagePath>AppotaConfig.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds\APTAdsImages\btn_close.png">
+      <PackagePath>Adsota.Content\AppotaAds\APTAdsImages\btn_close.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds\APTAdsImages\btn_download.png">
+      <PackagePath>Adsota.Content\AppotaAds\APTAdsImages\btn_download.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds\APTAdsImages\icon_adsota_topbar.png">
+      <PackagePath>Adsota.Content\AppotaAds\APTAdsImages\icon_adsota_topbar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds\APTAdsImages\icon_rate.png">
+      <PackagePath>Adsota.Content\AppotaAds\APTAdsImages\icon_rate.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds\APTAdsImages\ic_ActionInstall.png">
+      <PackagePath>Adsota.Content\AppotaAds\APTAdsImages\ic_ActionInstall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds\APTAdsImages\ic_ActionRate.png">
+      <PackagePath>Adsota.Content\AppotaAds\APTAdsImages\ic_ActionRate.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\bin\Debug\Adsota_RuntimeSample.xr.xml">
+      <PackagePath>Adsota_RuntimeSample.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds\AppotaAds.xr.xml">
+      <PackagePath>AppotaAds\AppotaAds.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds\APTAdsControls\Banner\ucBanner.xbf">
+      <PackagePath>AppotaAds\APTAdsControls\Banner\ucBanner.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds\APTAdsControls\FullScreen\ucFullScreen.xbf">
+      <PackagePath>AppotaAds\APTAdsControls\FullScreen\ucFullScreen.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds\APTAdsControls\OfferWall\ucOfferWall.xbf">
+      <PackagePath>AppotaAds\APTAdsControls\OfferWall\ucOfferWall.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds\APTAdsImages\btn_close.png">
+      <PackagePath>AppotaAds\APTAdsImages\btn_close.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds\APTAdsImages\btn_download.png">
+      <PackagePath>AppotaAds\APTAdsImages\btn_download.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds\APTAdsImages\icon_adsota_topbar.png">
+      <PackagePath>AppotaAds\APTAdsImages\icon_adsota_topbar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds\APTAdsImages\icon_rate.png">
+      <PackagePath>AppotaAds\APTAdsImages\icon_rate.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds\APTAdsImages\ic_ActionInstall.png">
+      <PackagePath>AppotaAds\APTAdsImages\ic_ActionInstall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\Adsota.Content\AppotaAds\APTAdsImages\ic_ActionRate.png">
+      <PackagePath>AppotaAds\APTAdsImages\ic_ActionRate.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\huu\documents\visual studio 2013\Projects\Adsota_RuntimeSample\Adsota_RuntimeSample\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

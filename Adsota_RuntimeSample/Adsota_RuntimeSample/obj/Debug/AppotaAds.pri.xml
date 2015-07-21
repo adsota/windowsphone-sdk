@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="AppotaAds" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="AppotaAds">
+				<NamedResource name="AppotaAds.xr.xml" uri="ms-resource://AppotaAds/Files/AppotaAds/AppotaAds.xr.xml">
+					<Candidate type="Path">
+						<Value>AppotaAds\AppotaAds.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="APTAdsControls">
+					<ResourceMapSubtree name="Banner">
+						<NamedResource name="ucBanner.xbf" uri="ms-resource://AppotaAds/Files/AppotaAds/APTAdsControls/Banner/ucBanner.xbf">
+							<Candidate type="Path">
+								<Value>AppotaAds\APTAdsControls\Banner\ucBanner.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="FullScreen">
+						<NamedResource name="ucFullScreen.xbf" uri="ms-resource://AppotaAds/Files/AppotaAds/APTAdsControls/FullScreen/ucFullScreen.xbf">
+							<Candidate type="Path">
+								<Value>AppotaAds\APTAdsControls\FullScreen\ucFullScreen.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="OfferWall">
+						<NamedResource name="ucOfferWall.xbf" uri="ms-resource://AppotaAds/Files/AppotaAds/APTAdsControls/OfferWall/ucOfferWall.xbf">
+							<Candidate type="Path">
+								<Value>AppotaAds\APTAdsControls\OfferWall\ucOfferWall.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="APTAdsImages">
+					<NamedResource name="btn_close.png" uri="ms-resource://AppotaAds/Files/AppotaAds/APTAdsImages/btn_close.png">
+						<Candidate type="Path">
+							<Value>AppotaAds\APTAdsImages\btn_close.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="btn_download.png" uri="ms-resource://AppotaAds/Files/AppotaAds/APTAdsImages/btn_download.png">
+						<Candidate type="Path">
+							<Value>AppotaAds\APTAdsImages\btn_download.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="icon_adsota_topbar.png" uri="ms-resource://AppotaAds/Files/AppotaAds/APTAdsImages/icon_adsota_topbar.png">
+						<Candidate type="Path">
+							<Value>AppotaAds\APTAdsImages\icon_adsota_topbar.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="icon_rate.png" uri="ms-resource://AppotaAds/Files/AppotaAds/APTAdsImages/icon_rate.png">
+						<Candidate type="Path">
+							<Value>AppotaAds\APTAdsImages\icon_rate.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ic_ActionInstall.png" uri="ms-resource://AppotaAds/Files/AppotaAds/APTAdsImages/ic_ActionInstall.png">
+						<Candidate type="Path">
+							<Value>AppotaAds\APTAdsImages\ic_ActionInstall.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ic_ActionRate.png" uri="ms-resource://AppotaAds/Files/AppotaAds/APTAdsImages/ic_ActionRate.png">
+						<Candidate type="Path">
+							<Value>AppotaAds\APTAdsImages\ic_ActionRate.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

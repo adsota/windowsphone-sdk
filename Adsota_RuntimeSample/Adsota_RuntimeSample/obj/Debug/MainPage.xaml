@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="Adsota_RuntimeSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Adsota_RuntimeSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:Ads="using:AppotaAds"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button x:ConnectionId='1' Content="Banner" Name="btnBanner"                          />
+            <Button x:ConnectionId='2' Content="FullScreen" Name="btnScreen"                          />
+            <Button x:ConnectionId='3' Content="OfferWall" Name="btnOfferWall"                             />
+        </StackPanel>
+
+        <Ads:Banner Name="banner" VerticalAlignment="Bottom"/>
+        <Ads:FullScreen Name="fullscreen"/>
+        <Ads:OfferWall Name="OfferWall"/>
+    </Grid>
+</Page>
+
