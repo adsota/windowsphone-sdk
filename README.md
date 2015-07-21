@@ -4,7 +4,7 @@
 
 [2. Set up Appota Ads SDK](#2-set-up-appota-ads-sdk)
 
-[2.1. Configure SDK](#21configure-sdk)
+[2.1. Configure SDK](#21-configure-sdk)
 
 [2.2. Load ads](#22-load-ads)
 
@@ -24,16 +24,16 @@ Run the following command in the Package Manager Console
 		<!--Replace placeholder apiKey with your apiKey in https://developer.appota.com/-->
         <apiKey>K-A173418-U00000-IOFEUF-09603AB8EC80BD17</apiKey>
         
-## [2.2. Load Ad]()
+## [2.2. Load Ads]()
 
 - Declare namespace in xaml
-  - Windows Phone 8.1 Silverlight : xmlns:Adsota="clr-namespace:AppotaAdsSL;assembly=AppotaAdsSL"
-  - Windows Phone 8.1 Runtime : xmlns:Adsota="using:AppotaAds"
+  - Windows Phone 8.1 Silverlight : `xmlns:Adsota="clr-namespace:AppotaAdsSL;assembly=AppotaAdsSL"`
+  - Windows Phone 8.1 Runtime : `xmlns:Adsota="using:AppotaAds"`
 		
 - Declare control in xaml
-  - Banner : <Adsota:Banner Name="banner" VerticalAlignment="Bottom"/>
-  - Full Screen (Interstitial) : <Adsota:FullScreen Name="fullscreen"/>
-  - OfferWall : <Adsota:OfferWall Name="OfferWall"/>
+  - Banner : `<Adsota:Banner Name="banner" VerticalAlignment="Bottom"/>`
+  - Full Screen (Interstitial) : `<Adsota:FullScreen Name="fullscreen"/>`
+  - OfferWall : `<Adsota:OfferWall Name="OfferWall"/>`
 
 - In code : 
   - Banner : 
