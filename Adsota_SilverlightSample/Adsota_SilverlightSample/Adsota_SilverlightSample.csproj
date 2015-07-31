@@ -168,7 +168,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="AppotaAdsSL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AdsotaSL.1.0.7\lib\AppotaAdsSL.dll</HintPath>
+      <HintPath>..\packages\AdsotaSL.1.0.9\lib\AppotaAdsSL.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>

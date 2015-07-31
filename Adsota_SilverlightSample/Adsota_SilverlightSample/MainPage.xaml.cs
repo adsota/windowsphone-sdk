@@ -22,36 +22,54 @@ namespace Adsota_SilverlightSample
         {
             InitializeComponent();
 
-            banner.LoadAds_Complete += banner_LoadAds_Complete;
-            fullscreen.LoadAds_Complete += fullscreen_LoadAds_Complete;
-            fullscreen.CloseAds_Complete += fullscreen_CloseAds_Complete;
-            OfferWall.CloseAds_Complete += OfferWall_CloseAds_Complete;
-            OfferWall.LoadAds_Complete += OfferWall_LoadAds_Complete;
+            banner.OnAdReceived += banner_OnAdReceived;
+            banner.OnFailedToReceiveAd += banner_OnFailedToReceiveAd;
+            fullscreen.OnAdClosed += fullscreen_OnAdClosed;
+            fullscreen.OnAdReceived += fullscreen_OnAdReceived;
+            fullscreen.OnFailedToReceiveAd += fullscreen_OnFailedToReceiveAd;
+            OfferWall.OnAdClosed += OfferWall_OnAdClosed;
+            OfferWall.OnAdReceived += OfferWall_OnAdReceived;
+            OfferWall.OnFailedToReceiveAd += OfferWall_OnFailedToReceiveAd;
         }
 
-        void banner_LoadAds_Complete(object sender, string message)
+        void OfferWall_OnFailedToReceiveAd(object sender, string message)
         {
-
+            
         }
 
-        void fullscreen_CloseAds_Complete(object sender, string message)
+        void OfferWall_OnAdReceived(object sender, string message)
         {
-
+            
         }
 
-        void fullscreen_LoadAds_Complete(object sender, string message)
+        void OfferWall_OnAdClosed(object sender, string message)
         {
-
+            
         }
 
-        void OfferWall_LoadAds_Complete(object sender, string message)
+        void fullscreen_OnFailedToReceiveAd(object sender, string message)
         {
-
+            
         }
 
-        void OfferWall_CloseAds_Complete(object sender, string message)
+        void fullscreen_OnAdReceived(object sender, string message)
         {
+            
+        }
 
+        void fullscreen_OnAdClosed(object sender, string message)
+        {
+            
+        }
+
+        void banner_OnFailedToReceiveAd(object sender, string message)
+        {
+            
+        }
+
+        void banner_OnAdReceived(object sender, string message)
+        {
+            
         }
 
         private void btnBanner_Tap(object sender, System.Windows.Input.GestureEventArgs e)

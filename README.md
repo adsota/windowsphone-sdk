@@ -38,43 +38,61 @@ Run the following command in the Package Manager Console
 - In code : 
   - Banner : 
 
-             banner.LoadAd(int AdUnitId);
-             banner.LoadAds_Complete += banner_LoadAds_Complete;
+			banner.LoadAd(int AdUnitId);
+			banner.OnAdReceived += banner_OnAdReceived;
+            banner.OnFailedToReceiveAd += banner_OnFailedToReceiveAd;
 
-             void banner_LoadAds_Complete(object sender, string message)
-             {
-              // your code here
-             }
+			void banner_OnFailedToReceiveAd(object sender, string message)
+			{
+				//your code here
+			}
+
+			void banner_OnAdReceived(object sender, string message)
+			{
+				//your code here
+			}
 
   - Full Screen : 
 
-             fullscreen.LoadAd(int AdUnitId);
-             fullscreen.LoadAds_Complete += fullscreen_LoadAds_Complete;
-             fullscreen.CloseAds_Complete += fullscreen_CloseAds_Complete;
+			fullscreen.LoadAd(int AdUnitId);
+			fullscreen.OnAdReceived += fullscreen_OnAdReceived;
+            fullscreen.OnAdClosed += fullscreen_OnAdClosed;
+            fullscreen.OnFailedToReceiveAd += fullscreen_OnFailedToReceiveAd;
 
-             void fullscreen_LoadAds_Complete(object sender, string message)
-             {
-              // your code here
-             }
+			void fullscreen_OnFailedToReceiveAd(object sender, string message)
+			{
+				//your code here
+			}
 
-             void fullscreen_CloseAds_Complete(object sender, string message)
-             {
-              // your code here
-             }
+			void fullscreen_OnAdClosed(object sender, string message)
+			{
+				//your code here
+			}
+			
+			void fullscreen_OnAdReceived(object sender, string message)
+			{
+				//your code here
+			}
 
   - Offer Wall : 
 
-             OfferWall.LoadAd(int AdUnitId);
-             OfferWall.LoadAds_Complete += OfferWall_LoadAds_Complete;
-             OfferWall.CloseAds_Complete += OfferWall_CloseAds_Complete;
+			OfferWall.LoadAd(int AdUnitId);
+			OfferWall.OnAdClosed += OfferWall_OnAdClosed;
+            OfferWall.OnAdReceived += OfferWall_OnAdReceived;
+            OfferWall.OnFailedToReceiveAd += OfferWall_OnFailedToReceiveAd;
 
-             void OfferWall_LoadAds_Complete(object sender, string message)
-             {
-              // your code here
-             }
+			void OfferWall_OnFailedToReceiveAd(object sender, string message)
+			{
+				//your code here				
+			}
 
-             void OfferWall_CloseAds_Complete(object sender, string message)
-             {
-              // your code here
-             }
+			void OfferWall_OnAdReceived(object sender, string message)
+			{
+				//your code here				
+			}
+
+			void OfferWall_OnAdClosed(object sender, string message)
+			{
+				//your code here				
+			}
 

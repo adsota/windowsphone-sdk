@@ -79,14 +79,6 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <None Include="Adsota.Content\AppotaAds.pri" />
-    <None Include="Adsota.Content\AppotaAds\APTAdsControls\Banner\ucBanner.xbf" />
-    <None Include="Adsota.Content\AppotaAds\APTAdsControls\FullScreen\ucFullScreen.xbf" />
-    <None Include="Adsota.Content\AppotaAds\APTAdsControls\OfferWall\ucOfferWall.xbf" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -128,8 +120,15 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Adsota.Content\AppotaAds.pri" />
+    <None Include="Adsota.Content\AppotaAds\APTAdsControls\Banner\ucBanner.xbf" />
+    <None Include="Adsota.Content\AppotaAds\APTAdsControls\FullScreen\ucFullScreen.xbf" />
+    <None Include="Adsota.Content\AppotaAds\APTAdsControls\OfferWall\ucOfferWall.xbf" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="AppotaAds, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Adsota.1.0.8\lib\AppotaAds.dll</HintPath>
+      <HintPath>..\packages\Adsota.1.0.9\lib\AppotaAds.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
